@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int left = in.nextInt();
         int right = in.nextInt();
@@ -16,6 +15,7 @@ public class Calculator {
             result = left + right;
         } else if (operation == '-') {
             result = left - right;
+
         } else if (operation == '*') {
             result = left * right;
         } else if (operation == '/') {
