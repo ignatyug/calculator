@@ -8,6 +8,13 @@ public class MultiplicationTеable {
         this.number = number;
     }
 
+    public String getString() {
+        return "string";
+    }
+
+    public int getInt() {
+        return 1;
+    }
     public void print() {
         for (int i = 1; i <= number; i++) {
             System.out.println();
