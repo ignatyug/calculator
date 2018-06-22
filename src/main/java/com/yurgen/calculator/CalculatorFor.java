@@ -15,13 +15,11 @@ public class CalculatorFor {
             int right = in.nextInt();
             System.out.print("Введите аперацию: ");
             final char operation = in.next().charAt(0);
-            Calculator calculator = new Calculator(left, right,operation);
+            Calculator calculator = new Calculator(left, right, operation);
 
             double result = calculator.calculate();
 
-            System.out.println("Результат: " + left + " " + operation + " " + right + " = " + result);
-            System.out.println("Ессли вы хотите продолжить введите значения после Y: ");
-            y = in.next();
+            new Printer().print(left, right, operation, result);
         }
     }
 }

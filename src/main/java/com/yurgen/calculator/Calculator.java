@@ -23,9 +23,8 @@ public class Calculator {
             result = left / right;
         }
         return result;
+
     }
-
-
 }
 
 

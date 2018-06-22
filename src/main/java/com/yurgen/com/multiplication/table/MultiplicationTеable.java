@@ -15,7 +15,7 @@ public class MultiplicationTеable {
     public int getInt() {
         return 1;
     }
-    public void print() {
+        public void print() {
         for (int i = 1; i <= number; i++) {
             System.out.println();
             for (int a = 1; a <= number; a++) {
