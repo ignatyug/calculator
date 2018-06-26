@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TaskMas2 {
 
     public static void main(String[] args) {
-        /*Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.print("Введите число: ");
         int a = in.nextInt();
         int[] mas = {2, 4, 6, 8, 9};
@@ -18,9 +18,8 @@ public class TaskMas2 {
         }
         if (found == false) {
             System.out.println("не найден");
-        }*/
-        char c = 'a';
-        System.out.println((int)c);
+        }
+
     }
 }
 
