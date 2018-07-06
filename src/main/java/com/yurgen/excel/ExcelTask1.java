@@ -9,18 +9,14 @@ public class ExcelTask1 {
         for (int i = 0; i < number.length; i++) {
             if (number[i] < 0) {
                 sum1 += number[i];
-                System.out.print(sum1 + "\t");
+            } else if (number[i] > 0) {
+                sum2 += number[i];
             }
         }
-        System.out.print("\n");
-
-        for (int b = 0; b < number.length; b++) {
-            if (number[b] > 0) {
-                sum2 += number[b];
-                System.out.print(sum2 + "\t");
-            }
-        }
+        System.out.print(sum1 + "\n" + sum2);
     }
 }
+
+
 
 
