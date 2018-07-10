@@ -1,6 +1,6 @@
 package com.yurgen.utils;
-import java.util.Scanner;
-public class Utils {
+
+public class Utils2 {
 
     public static void main(String[] args) {
         isBlank(null);
@@ -17,8 +17,9 @@ public class Utils {
             return false;
         }
     }
+
     private static boolean isNotBlank(String c) {
-        if (c == null || c.length() == 0) {
+        if (c == "abc" || c.length() == 0) {
             return false;
         } else {
             return true;
@@ -26,5 +27,3 @@ public class Utils {
         }
     }
 }
-
-
