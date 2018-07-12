@@ -4,8 +4,10 @@ public class Utils2 {
 
     public static void main(String[] args) {
         isBlank(null);
+        isBlank("");
         isBlank(" ");
-        isNotBlank("abc");
+        isBlank("bob");
+        isBlank("  bob  ");
         System.out.println(isBlank(null));
         System.out.println(isNotBlank("abc"));
     }
@@ -19,7 +21,7 @@ public class Utils2 {
     }
 
     private static boolean isNotBlank(String c) {
-        if (c == "abc" || c.length() == 0) {
+        if ((c == "abc") || (c.length() == 0)) {
             return false;
         } else {
             return true;
