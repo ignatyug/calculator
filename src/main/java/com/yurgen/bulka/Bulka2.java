@@ -1,12 +1,13 @@
 package com.yurgen.bulka;
 
-public class Bulka1 {
+public class Bulka2 {
 
     public static void main(String[] args) {
 
         boolean a = true;
         boolean b = true;
-
+    }
+    static void doubleBoolean(boolean a,boolean b) {
         if (a && b) {
             System.out.println("1");
         } else {
@@ -14,3 +15,4 @@ public class Bulka1 {
         }
     }
 }
+
