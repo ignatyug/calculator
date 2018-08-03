@@ -6,8 +6,11 @@ public class Bulka2 {
 
         boolean a = true;
         boolean b = true;
+        doubleBoolean(a,b);
+
     }
-    static void doubleBoolean(boolean a,boolean b) {
+
+    private static void doubleBoolean(boolean a, boolean b) {
         if (a && b) {
             System.out.println("1");
         } else {
