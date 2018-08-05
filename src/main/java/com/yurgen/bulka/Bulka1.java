@@ -4,10 +4,10 @@ public class Bulka1 {
 
     public static void main(String[] args) {
 
-        boolean a = true;
+        boolean a = false;
         boolean b = true;
 
-        if (a && b) {
+        if (a == true || b == true) {
             System.out.println("1");
         } else {
             System.out.println("2");
