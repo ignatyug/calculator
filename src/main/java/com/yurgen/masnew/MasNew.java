@@ -8,6 +8,10 @@ public class MasNew {
         for (int i = 0; i < a.length; i++) {
             a[i] = s;
             System.out.println(s);
+
+            if (b = false) {
+                System.out.println(b);
+            }
         }
     }
 }
