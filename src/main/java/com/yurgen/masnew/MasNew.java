@@ -6,15 +6,12 @@ public class MasNew {
         String s = "first";
         boolean b = false;
         for (int i = 0; i < a.length; i++) {
-            if (a[i] == s){
+            if (a[i] == s) {
+                System.out.println(i);
+                return;
             }
-            System.out.println(i);
-
-
-
-            if (a[i] != s){
+            if (a[i] != s) {
                 System.out.println("no");
-
             }
         }
     }
