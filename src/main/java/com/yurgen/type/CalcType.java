@@ -7,11 +7,11 @@ package com.yurgen.type;
  */
 public class CalcType {
     public static void main(String[] args) {
-        double a = a.getNumber();
-        double b = b.getNumber();
-        char c = c.getOperation();
-        double j = j.calc(a,b,c);
+//        double a = a.getNumber();
+//        double b = b.getNumber();
+//        char c = c.getOperation();
+//        double j = j.calc(a,b,c);
 
-        System.out.println(j);
+//        System.out.println(j);
     }
 }
