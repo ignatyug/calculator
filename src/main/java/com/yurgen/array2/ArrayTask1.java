@@ -2,7 +2,7 @@ package com.yurgen.array2;
 
 import java.util.Scanner;
 
-//import static sun.misc.Version.print;
+// import static sun.misc.Version.print;
 
 public class ArrayTask1 {
 
