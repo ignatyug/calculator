@@ -11,18 +11,28 @@ public class ExampleTask {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите 10 произвольных чисел: ");
         int size = 10;
-        int[] newMass = new int[size];
+        int[] newMas = new int[size];
         int[] sizeMas = new int[size];
         for (int i = 0; i < sizeMas.length; i++) {
             sizeMas[i] = input.nextInt();
+
         }
+
+        boolean stopSequence = false;
         for (int i = 0; i < sizeMas.length; i++) {
-            for (int j = 0; j < newMass.length; j++) {
-                if (newMass[j] == sizeMas[i]) {
-                    break;
+            for (int a = 0; a < newMas.length && !stopSequence; ) {
+                if (sizeMas[i] != newMas[a]) {
+                    sizeMas[i] = 0;
+                    a++;
+                }
+                if (sizeMas[i] == newMas[a]) {
+                    sizeMas[i] = 0;
+                    stopSequence = true;
                 }
             }
-            newMass[i] = sizeMas[i];
+            stopSequence = false;
+
+            System.out.println(sizeMas);
         }
     }
 }
